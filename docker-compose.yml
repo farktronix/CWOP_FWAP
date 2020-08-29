@@ -1,0 +1,8 @@
+version: "3"
+services:
+    CWOP_FWAP:
+        container_name: CWOP_FWAP
+        image: farktronix/cwop_fwap:latest
+        restart: always
+        volumes:
+            - ./config.yml:/config.yml:ro

@@ -1,0 +1,15 @@
+callsign: "FW8277"
+password: "-1"
+server: "cwop.aprs.net"
+port: 14580
+stationVersion: "FWAP1"
+
+latitude: "3720.49N"
+longitude: "12154.18W"
+
+influx_host: "influx.home.rkas.net"
+influx_db: "FWAP"
+influx_fromField: "weather"
+influx_sensorHost: "FWAPOutside"
+
+
